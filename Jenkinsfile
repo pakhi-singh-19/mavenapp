@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('prep') {
             steps {
-                git branch: 'main', url: 'https://github.com/psapp1/mavenapp.git'
+                git branch: 'main', url: 'https://github.com/pakhi-singh-19/mavenapp.git'
             }
         }
         stage('build') {
